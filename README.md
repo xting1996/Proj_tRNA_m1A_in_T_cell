@@ -15,5 +15,5 @@ python count_RPM.py -i_bam test.bam -output test.RPM.txt
 ##### 2.calling m1A info using Non-AlkB sample(IP) and AlkB-sample(Input)
 
  `
- python get_m1A.py -Input test.AlkB.sort.mpileup.xls -IP test.Non-AlkB.sort.mpileup.xls -FC 3 -diff 10 -coverage 3 --Output test.m1A.txt
+ python get_m1A_modification.py -Input test.AlkB.sort.mpileup.xls -IP test.Non-AlkB.sort.mpileup.xls -FC 3 -diff 10 -coverage 3 --Output test.m1A.txt
  `
